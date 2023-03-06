@@ -29,7 +29,7 @@ public class HomePageTestSuite extends BasePage{
 		pp = new PercyPage(driver);
 		waitForElementToBeVisible(pp.percyTitle);
 		Assert.assertTrue(pp.percyTitle.isDisplayed());
-		Assert.assertEquals(pp.percyTitle.getText(), "Percyguigu");
+		Assert.assertEquals(pp.percyTitle.getText(), "Percy");
 	}
 	
 	
