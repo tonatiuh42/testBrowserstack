@@ -98,6 +98,16 @@ public class Listeners implements ITestListener{
 		String fileName = methodName + "_" + d.toString().replace(":", "_").replace(" ", "_") + ".png";
 		return fileName;
 	}
+
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void onStart(ITestContext context) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	
